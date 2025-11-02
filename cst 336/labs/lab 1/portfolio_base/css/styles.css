@@ -1,0 +1,102 @@
+header, main, nav, footer {
+    text-align: center;
+}
+
+body {
+    background-color:black;
+    color:white;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100;
+}
+
+nav a { /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a.active {
+    display:inline-block;
+    background-color: gray;
+}
+
+nav a:hover { /*pseudo class*/
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s; /* transition effect */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    margin: 0px auto;
+    padding-bottom: 35px;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+#contactContent {
+    display: flex;
+    justify-content: center;
+}
+
+#footerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#footerText {
+    font-size: 14px;
+    color: lightsteelblue;
+}
+
+#logoCSUMB {
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+}
