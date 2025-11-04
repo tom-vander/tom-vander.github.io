@@ -1,0 +1,117 @@
+/*
+    chosen color scheme:
+    + Deep red {#8E0D3C)
+    + Dark Purple {#1D1842)
+    + Golden Yellow {#fdad00)
+    + Light Pink {#FDA1A2)
+*/
+
+.tektur-custom {
+             font-family: "Tektur", sans-serif;
+             font-optical-sizing: auto;
+             font-weight: 400;
+             font-style: normal;
+             font-variation-settings:
+                     "wdth" 100;
+         }
+
+body {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    width: fit-content;
+    align-items: center;
+    background-color: #1D1842;
+}
+
+h1 {
+    display: flex;
+    height: 55px;
+    width: 360px;
+    margin-right: 14px;
+    border-radius: 0 25px 25px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #5478a6;
+    color: #ffffff;
+    font-family: "Tektur", sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px #1D1842;
+    gap: 6px;
+}
+
+h1 .material-symbols-outlined {
+    color: #fdad00;
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    align-self: flex-end;
+}
+
+nav a {
+    display: inline-flex;
+    width: 318px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 25px 25px 0 0;
+    margin-inline: 8px;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    font-family: "Tektur", sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: #5478a6;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #1D1842;
+    gap: 8px;
+}
+
+nav .material-symbols-outlined {
+    font-size: 40px;
+    align-self: center;
+}
+
+nav a.active {
+    background-color: #ffc57b;
+    color: #1D1842;
+    font-weight: 600;
+    text-shadow: none;
+    height:50px;
+}
+
+nav a:not(.active):hover {
+    background-color: #fdad00;
+    color: #1D1842;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+main {
+    background-color: #ffc57b;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: #1D1842;
+    font-family: "Liberation Mono", monospace;
+}
+
+footer a{
+    margin-inline: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
