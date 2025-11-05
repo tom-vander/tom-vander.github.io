@@ -1,0 +1,26 @@
+What is Malware? | IBM
+https://www.ibm.com/think/topics/malware
+
+Malware: Types, Examples, and Prevention
+https://www.sentinelone.com/cybersecurity-101/cybersecurity/what-is-malware/
+
+25 Common Types of Malware & How To Identify Them
+https://securityscorecard.com/blog/common-types-of-malware/
+
+7 Most Common Types of Malware
+https://www.comptia.org/en-us/blog/7-most-common-types-of-malware/
+
+THE 12 MOST COMMON TYPES OF MALWARE
+https://www.crowdstrike.com/en-us/cybersecurity-101/malware/types-of-malware/
+
+Protect Your Personal Information From Hackers and Scammers
+https://consumer.ftc.gov/node/77479#peer
+
+How to Prevent Malware: 8 Effective Tips
+https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-malware/how-to-prevent-malware-8-effective-tips/
+
+How to recover from a ransomware attack
+https://www.rubrik.com/insights/how-to-recover-from-ransomware
+
+The Aftermath: Steps to Recovering from a Malware Attack
+https://www.zengrc.com/blog/the-aftermath-steps-to-recovering-from-a-malware-attack/
