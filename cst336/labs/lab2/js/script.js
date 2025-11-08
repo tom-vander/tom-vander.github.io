@@ -5,8 +5,7 @@ document.querySelector("#playerGuess").addEventListener("click",clearInput)
 document.querySelector("#playerGuess").addEventListener("keypress", function(event){
     if(event.key == "Enter" && document.querySelector("#mainContainer").style.background != "rgba(255, 255, 255, 0.7)"){
         checkGuess();
-    }
-})
+    }})
 
 //global variables
 let randomNumber;
