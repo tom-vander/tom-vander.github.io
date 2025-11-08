@@ -3,25 +3,63 @@
     <head>
         <title> Guess a Number </title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-
         <header>
+            <h2>Welcome to</h2>
             <h1>Guess the Number!</h1>
-            <h2>Guess a number between 1 and 99 in seven attempts!</h2>
         </header>
-        <br>
-        <div id="main">
-            Enter a guess:
-            <label for="playerGuess"></label><input type="text" id="playerGuess" size="5">
-            <!-- size will determine how many characters
-                 can be displayed at a time -->
-            <button id="guessBtn"> Guess </button> <br>
-            <button id="resetBtn"> Reset </button>
-            <div id="feedback"></div>
-            <div>Previous Guesses:
-                <span id="guesses"></span></div>
+
+        <div id="insContainer">
+            <h3>Here's how to play:</h3>
+            <div id="instructions">
+                <p>A random number has been selected and it's your job to guess what it is.
+                <br>The number is between 1 and 99 (inclusive).</p>
+                <br><p>You are limited to seven guesses:</p>
+                <ul>
+                    <li>Guess correctly before using them all, you win!</li>
+                    <li>Guess incorrectly seven times, you lose!</li>
+                    <li>With each incorrect guess, you will know whether your guess was low or high.</li>
+                    <li>During each match, your remaining attempts and previous guesses will be displayed.</li>
+                </ul>
+            </div>
+            <h3>Good Luck and Have Fun!</h3>
         </div>
+
+        <br>
+
+        <div id="mainContainer">
+            <div id="statusDisplay">
+                <div id="winDisplay">
+                    <span id="winCount">Wins: </span>
+                </div>
+                <div id="status">
+                    Attempts Made:
+                </div>
+                <div id="lossDisplay">
+                    <span id="lossCount">Losses: </span>
+                </div>
+            </div>
+
+            <div id="guessField">
+                Enter a guess:
+                <input autocomplete="off" type="text" id="playerGuess" size="5">
+                <button id="guessBtn"> Guess </button>
+                <button id="resetBtn"> Reset </button>
+            </div>
+
+            <div id="feedback"></div>
+
+            <div id="prevGuesses">
+                <p>Previous Guesses</p>
+                <p>Low:</p>
+                <span id="lowGuesses"></span>
+                <p>High:</p>
+                <span id="highGuesses"></span>
+            </div>
+        </div>
+
         <script src="js/script.js"></script>
     </body>
 </html>
