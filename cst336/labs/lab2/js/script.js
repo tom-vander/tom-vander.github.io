@@ -50,18 +50,14 @@ function resetDisplay() {
     document.querySelector("#prevGuesses").style.display = "none"
     document.querySelector("#mainContainer").style.border = "0";
     document.querySelector("#mainContainer").style.background = "rgba(0, 0, 150, 0.65)";
-    document.querySelector("#status").style.border = "0";
     document.querySelector("#status").style.background = "rgba(255, 255, 255, 0.55)";
     document.querySelector("#status").style.color = "black";
     document.querySelector("#status").style.background = "rgba(255, 255, 255, 0.55)";
     document.querySelector("#status").style.color = "black";
-    document.querySelector("#winDisplay").style.border = "0";
     document.querySelector("#winDisplay").style.background = "rgba(255, 255, 255, 0.55)";
     document.querySelector("#winDisplay").style.color = "black";
-    document.querySelector("#lossDisplay").style.border = "0";
     document.querySelector("#lossDisplay").style.background = "rgba(255, 255, 255, 0.55)";
     document.querySelector("#lossDisplay").style.color = "black";
-    document.querySelector("#guessField").style.border = "0";
     document.querySelector("#guessField").style.background = "rgba(255, 255, 255, 0.55)";
     document.querySelector("#guessField").style.color = "black";
     document.querySelector("#playerGuess").placeholder = "";
@@ -70,15 +66,11 @@ function resetDisplay() {
 function winDisplay() {
     document.querySelector("#prevGuesses").style.display = "none"
     document.querySelector("#mainContainer").style.border = "5px solid darkgreen";
-    document.querySelector("#mainContainer").style.background = "rgba(255, 255, 255, 0.7)";
+    document.querySelector("#mainContainer").style.background = "rgba(50, 200, 50, 0.7)";
     document.querySelector("#status").textContent = "You guessed it! You Won!";
-    document.querySelector("#status").style.border = "5px solid darkgreen";
     document.querySelector("#status").style.color = "darkgreen";
-    document.querySelector("#winDisplay").style.border = "5px solid darkgreen";
     document.querySelector("#winDisplay").style.color = "darkgreen";
-    document.querySelector("#lossDisplay").style.border = "5px solid darkgreen";
     document.querySelector("#lossDisplay").style.color = "darkgreen";
-    document.querySelector("#guessField").style.border = "5px solid darkgreen";
     document.querySelector("#guessField").style.color = "darkgreen";
     document.querySelector("#playerGuess").placeholder = "Congratulations!";
     document.querySelector("#playerGuess").blur()
@@ -87,15 +79,11 @@ function winDisplay() {
 function lossDisplay() {
     document.querySelector("#prevGuesses").style.display = "none"
     document.querySelector("#mainContainer").style.border = "5px solid red";
-    document.querySelector("#mainContainer").style.background = "rgba(255, 255, 255, 0.7)";
+    document.querySelector("#mainContainer").style.background = "rgba(200, 50, 50, 0.7)";
     document.querySelector("#status").textContent = "Sorry, you lost!";
-    document.querySelector("#status").style.border = "5px solid red";
     document.querySelector("#status").style.color = "red";
-    document.querySelector("#winDisplay").style.border = "5px solid red";
     document.querySelector("#winDisplay").style.color = "red";
-    document.querySelector("#lossDisplay").style.border = "5px solid red";
     document.querySelector("#lossDisplay").style.color = "red";
-    document.querySelector("#guessField").style.border = "5px solid red";
     document.querySelector("#guessField").style.color = "red";
     document.querySelector("#playerGuess").placeholder = "The selected number was " + randomNumber;
     document.querySelector("#playerGuess").blur()
