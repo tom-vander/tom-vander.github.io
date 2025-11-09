@@ -90,7 +90,6 @@ function lossDisplay() {
 }
 
 function checkGuess(){
-    document.querySelector("#prevGuesses").style.display = "flex"
     let feedback = document.querySelector("#playerGuess");
     let guess = document.querySelector("#playerGuess").value;
     console.log("Player guess: " + guess);
@@ -99,6 +98,7 @@ function checkGuess(){
         feedback.placeholder = "Enter a number between 1 and 99";
         return;
     }
+    document.querySelector("#prevGuesses").style.display = "flex"
     attempts++;
     document.querySelector("#status").textContent = "Attempts Made: " + attempts;
     if(guess == randomNumber) {

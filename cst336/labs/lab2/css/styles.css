@@ -5,6 +5,7 @@ body {
     background-position: center center;
     background-attachment: fixed;
     justify-items: center;
+    font-family: "Arial", sans-serif;
 }
 
 header {
@@ -66,8 +67,8 @@ h3 {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(0, 0, 150, 0.55);
     border-radius: 10px;
-    font-size: 20px;
-    width: 700px;
+    font-size: 19px;
+    width: 760px;
     height: fit-content;
 }
 
@@ -154,11 +155,27 @@ h3 {
     background-color: rgba(220, 220, 220, 0.80);
 }
 
+#guessBtn:hover {
+    transition: background-color 0.5s ease,
+    color 0.5s ease;
+    background-color: rgba(100, 100, 255, 1);
+    color: white;
+    cursor: pointer;
+}
+
 #resetBtn {
     width: 20%;
     height: 35px;
     font-size: 15px;
     background-color: rgba(220, 220, 220, 0.80);
+}
+
+#resetBtn:hover {
+    transition: background-color 0.5s ease,
+                color 0.5s ease;
+    background-color: rgba(255, 100, 100, 1);
+    color: white;
+    cursor: pointer;
 }
 
 #prevGuesses {
