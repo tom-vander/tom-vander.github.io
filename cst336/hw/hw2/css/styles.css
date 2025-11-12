@@ -13,3 +13,26 @@ hr {
     width: 90%;
     justify-self: center;
 }
+
+h3 {
+    font-size: 20px;
+}
+
+.qContainer {
+    justify-self: center;
+    border: 1px solid black;
+    padding: 10px;
+    width: 800px;
+    background-color: #98d2ea;
+}
+
+.qHeader {
+    display: flex;
+    border: 1px solid black;
+    background-color: #4289a6;
+    justify-content: center;
+}
+
+.qIndex {
+    font-size: 22px;
+}

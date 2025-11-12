@@ -11,83 +11,134 @@
     <h1 class="p-2 bg-info">US Geography Quiz</h1>
     <br>
 
-    <h3><span id="markImg1"></span>What is the capital of California?</h3>
-    <input type="text" id="q1">
-    <br><br>
-    <div id="q1Feedback"></div>
+    <div class="qContainer">
+        <div class="qHeader">
+            <div class="qIndex">Question 1</div>
+            <div id="q1Feedback"></div>
+        </div>
+        <br>
+        <h3><span id="markImg1"></span>What is the capital of California?</h3>
+        <input type="text" id="q1">
+    </div>
     <br><hr><br>
 
-    <h3><span id="markImg2"></span>What is the longest river?</h3>
-    <select id="q2">
-        <option value="">Select One</option>
-        <option value="ms">Mississippi</option>
-        <option value="mo">Missouri</option>
-        <option value="co">Colorado</option>
-        <option value="de">Delaware</option>
-    </select>
-    <br><br>
-    <div id="q2Feedback"></div>
+    <div class="qContainer">
+        <div class="qHeader">
+            <div class="qIndex">Question 2</div>
+            <div id="q2Feedback"></div>
+        </div>
+        <br>
+        <h3><span id="markImg2"></span>What is the longest river?</h3>
+        <select id="q2">
+            <option value="">Select One</option>
+            <option value="ms">Mississippi</option>
+            <option value="mo">Missouri</option>
+            <option value="co">Colorado</option>
+            <option value="de">Delaware</option>
+        </select>
+    </div>
     <br><hr><br>
 
-    <h3><span id="markImg3"></span>What presidents are carved into mount Rushmore?</h3>
-    <input type="checkbox" id="Jackson"> <label for="Jackson"> A. Jackson </label>
-    <input type="checkbox" id="Franklin"> <label for="Franklin"> B. Franklin </label>
-    <input type="checkbox" id="Jefferson"> <label for="Jefferson"> T. Jefferson </label>
-    <input type="checkbox" id="Roosevelt"> <label for="Roosevelt"> T. Roosevelt </label>
-    <br><br>
-    <div id="q3Feedback"></div>
+    <div class="qContainer">
+        <div class="qHeader">
+            <div class="qIndex">Question 3</div>
+            <div id="q3Feedback"></div>
+        </div>
+        <br>
+        <h3><span id="markImg3"></span>What presidents are carved into mount Rushmore?</h3>
+        <input type="checkbox" id="Jackson"> <label for="Jackson"> A. Jackson </label>
+        <input type="checkbox" id="Franklin"> <label for="Franklin"> B. Franklin </label>
+        <input type="checkbox" id="Jefferson"> <label for="Jefferson"> T. Jefferson </label>
+        <input type="checkbox" id="Roosevelt"> <label for="Roosevelt"> T. Roosevelt </label>
+    </div>
     <br><hr><br>
 
-    <h3><span id="markImg4"></span>What is the smallest US state?</h3>
-    <div id="q4Choices"></div>
-    <br>
-    <div id="q4Feedback"></div>
+    <div class="qContainer">
+        <div class="qHeader">
+            <div class="qIndex">Question 4</div>
+            <div id="q4Feedback"></div>
+        </div>
+        <br>
+        <h3><span id="markImg4"></span>What is the smallest US state?</h3>
+        <div id="q4Choices"></div>
+    </div>
     <br><hr><br>
 
-    <h3><span id="markImg5"></span>How many US states border the Gulf of Mexico?</h3>
-    <input type="number" id="q5" size="2" min="0" max="50">
-    <br><br>
-    <div id="q5Feedback"></div>
+    <div class="qContainer">
+        <div class="qHeader">
+            <div class="qIndex">Question 5</div>
+            <div id="q5Feedback"></div>
+        </div>
+        <br>
+        <h3><span id="markImg5"></span>How many US states border the Gulf of Mexico?</h3>
+        <input type="number" id="q5" size="2" min="0" max="50">
+
+    </div>
     <br><hr><br>
 
-    <h3><span id="markImg6"></span>What was the last state to join the US?</h3>
-    <select id="q6">
-        <option value="">Select One</option>
-        <option value="ak">Alaska</option>
-        <option value="az">Arizona</option>
-        <option value="hi">Hawaii</option>
-        <option value="nm">New Mexico</option>
-    </select>
-    <br><br>
-    <div id="q6Feedback"></div>
+    <div class="qContainer">
+        <div class="qHeader">
+            <div class="qIndex">Question 6</div>
+            <div id="q6Feedback"></div>
+        </div>
+        <br>
+        <h3><span id="markImg6"></span>What was the last state to join the US?</h3>
+        <select id="q6">
+            <option value="">Select One</option>
+            <option value="ak">Alaska</option>
+            <option value="az">Arizona</option>
+            <option value="hi">Hawaii</option>
+            <option value="nm">New Mexico</option>
+        </select>
+    </div>
     <br><hr><br>
 
-    <h3><span id="markImg7"></span>What is the longest US road?</h3>
-    <div id="q7Choices"></div>
-    <br>
-    <div id="q7Feedback"></div>
+    <div class="qContainer">
+        <div class="qHeader">
+            <div class="qIndex">Question 7</div>
+            <div id="q7Feedback"></div>
+        </div>
+        <br>
+        <h3><span id="markImg7"></span>What is the longest US road?</h3>
+        <div id="q7Choices"></div>
+    </div>
     <br><hr><br>
 
-    <h3><span id="markImg8"></span>Which of the Great Lakes border(s) the state of Michigan?</h3>
-    <input type="checkbox" id="Erie"> <label for="Erie"> Erie </label>
-    <input type="checkbox" id="Huron"> <label for="Huron"> Huron </label>
-    <input type="checkbox" id="Michigan"> <label for="Michigan"> Michigan </label>
-    <input type="checkbox" id="Ontario"> <label for="Ontario"> Ontario </label>
-    <input type="checkbox" id="Superior"> <label for="Superior"> Superior </label>
-    <br><br>
-    <div id="q8Feedback"></div>
+    <div class="qContainer">
+        <div class="qHeader">
+            <div class="qIndex">Question 8</div>
+            <div id="q8Feedback"></div>
+        </div>
+        <br>
+        <h3><span id="markImg8"></span>Which of the Great Lakes border(s) the state of Michigan?</h3>
+        <input type="checkbox" id="Erie"> <label for="Erie"> Erie </label>
+        <input type="checkbox" id="Huron"> <label for="Huron"> Huron </label>
+        <input type="checkbox" id="Michigan"> <label for="Michigan"> Michigan </label>
+        <input type="checkbox" id="Ontario"> <label for="Ontario"> Ontario </label>
+        <input type="checkbox" id="Superior"> <label for="Superior"> Superior </label>
+    </div>
     <br><hr><br>
 
-    <h3><span id="markImg9"></span>What is the name of the highest mountain in the US?</h3>
-    Mount <input type="text" id="q9" size="10" autocomplete="off">
-    <br><br>
-    <div id="q9Feedback"></div>
+    <div class="qContainer">
+        <div class="qHeader">
+            <div class="qIndex">Question 9</div>
+            <div id="q9Feedback"></div>
+        </div>
+        <br>
+        <h3><span id="markImg9"></span>What is the name of the highest mountain in the US?</h3>
+        Mount <input type="text" id="q9" size="10" autocomplete="off">
+    </div>
     <br><hr><br>
 
-    <h3><span id="markImg10"></span>In what year was the first US national monument established?</h3>
-    <input type="number" id="q10" size="4" min="1776" max="2025">
-    <br><br>
-    <div id="q10Feedback"></div>
+    <div class="qContainer">
+        <div class="qHeader">
+            <div class="qIndex">Question 10</div>
+            <div id="q10Feedback"></div>
+        </div>
+        <br>
+        <h3><span id="markImg10"></span>In what year was the first US national monument established?</h3>
+        <input type="number" id="q10" size="4" min="1776" max="2025">
+    </div>
     <br><hr><br>
 
     <h3 id="validationFbk" class="bg-danger text-white"></h3>
