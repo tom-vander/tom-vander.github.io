@@ -35,4 +35,10 @@ h3 {
 
 .qIndex {
     font-size: 22px;
+    margin-right: 10px;
 }
+
+.qFeedback {
+    margin: 20px;
+}
+
