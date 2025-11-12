@@ -24,7 +24,31 @@ function isFormValid() {
     let isValid = true;
     if(document.querySelector("#q1").value == "") {
         isValid = false;
-        document.querySelector("#validationFbk").innerHTML = "Question 1 was not answered";
+    } else if(document.querySelector("#q2").value == "") {
+        isValid = false;
+    } else if(!document.querySelector("#Jefferson").checked && !document.querySelector("#Roosevelt").checked
+        && !document.querySelector("#Jackson").checked && !document.querySelector("#Franklin").checked) {
+        isValid = false;
+    } else if(!document.querySelector('input[name="q4"]:checked')){
+        isValid = false;
+    } else if(document.querySelector("#q5").value == "") {
+        isValid = false;
+    } else if(document.querySelector("#q6").value == "") {
+        isValid = false;
+    } else if(!document.querySelector('input[name="q7"]:checked')){
+        isValid = false;
+    } else if(!document.querySelector("#Erie").checked && !document.querySelector("#Huron").checked
+        && !document.querySelector("#Michigan").checked && !document.querySelector("#Superior").checked
+        && !document.querySelector("#Ontario").checked) {
+        isValid = false;
+    } else if(document.querySelector("#q9").value == "") {
+        isValid = false;
+    } else if(document.querySelector("#q10").value == "") {
+        isValid = false;
+    }
+
+    if(!isValid){
+        document.querySelector("#validationFbk").innerHTML = "One or more questions were was not answered";
     }
     return isValid;
 }
