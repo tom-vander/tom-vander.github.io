@@ -9,12 +9,13 @@
 </head>
 <body class="text-center">
     <h1 class="p-2 bg-info">US Geography Quiz</h1>
+    <br>
 
     <h3><span id="markImg1"></span>What is the capital of California?</h3>
     <input type="text" id="q1">
     <br><br>
     <div id="q1Feedback"></div>
-    <br><br>
+    <br><hr><br>
 
     <h3><span id="markImg2"></span>What is the longest river?</h3>
     <select id="q2">
@@ -26,7 +27,7 @@
     </select>
     <br><br>
     <div id="q2Feedback"></div>
-    <br><br>
+    <br><hr><br>
 
     <h3><span id="markImg3"></span>What presidents are carved into mount Rushmore?</h3>
     <input type="checkbox" id="Jackson"> <label for="Jackson"> A. Jackson </label>
@@ -35,22 +36,64 @@
     <input type="checkbox" id="Roosevelt"> <label for="Roosevelt"> T. Roosevelt </label>
     <br><br>
     <div id="q3Feedback"></div>
-    <br><br>
+    <br><hr><br>
 
     <h3><span id="markImg4"></span>What is the smallest US state?</h3>
     <div id="q4Choices"></div>
-<!--    <input type="radio" name="q4" id="me" value="Maine"> <label for="me"> Maine </label>-->
-<!--    <input type="radio" name="q4" id="ri" value="Rhode Island"> <label for="ri"> Rhode Island </label>-->
-<!--    <input type="radio" name="q4" id="md" value="Maryland"> <label for="md"> Maryland </label>-->
-<!--    <input type="radio" name="q4" id="de" value="Delaware"> <label for="de"> Delaware </label>-->
-    <br><br>
+    <br>
     <div id="q4Feedback"></div>
+    <br><hr><br>
+
+    <h3><span id="markImg5"></span>How many US states border the Gulf of Mexico?</h3>
+    <input type="number" id="q5" size="2" min="0" max="50">
     <br><br>
+    <div id="q5Feedback"></div>
+    <br><hr><br>
+
+    <h3><span id="markImg6"></span>What was the last state to join the US?</h3>
+    <select id="q6">
+        <option value="">Select One</option>
+        <option value="ak">Alaska</option>
+        <option value="az">Arizona</option>
+        <option value="hi">Hawaii</option>
+        <option value="nm">New Mexico</option>
+    </select>
+    <br><br>
+    <div id="q6Feedback"></div>
+    <br><hr><br>
+
+    <h3><span id="markImg7"></span>What is the longest US road?</h3>
+    <div id="q7Choices"></div>
+    <br>
+    <div id="q7Feedback"></div>
+    <br><hr><br>
+
+    <h3><span id="markImg8"></span>Which of the Great Lakes border(s) the state of Michigan?</h3>
+    <input type="checkbox" id="Erie"> <label for="Erie"> Erie </label>
+    <input type="checkbox" id="Huron"> <label for="Huron"> Huron </label>
+    <input type="checkbox" id="Michigan"> <label for="Michigan"> Michigan </label>
+    <input type="checkbox" id="Ontario"> <label for="Ontario"> Ontario </label>
+    <input type="checkbox" id="Superior"> <label for="Superior"> Superior </label>
+    <br><br>
+    <div id="q8Feedback"></div>
+    <br><hr><br>
+
+    <h3><span id="markImg9"></span>What is the name of the highest mountain in the US?</h3>
+    Mount <input type="text" id="q9" size="10" autocomplete="off">
+    <br><br>
+    <div id="q9Feedback"></div>
+    <br><hr><br>
+
+    <h3><span id="markImg10"></span>In what year was the first US national monument established?</h3>
+    <input type="number" id="q10" size="4" min="1776" max="2025">
+    <br><br>
+    <div id="q10Feedback"></div>
+    <br><hr><br>
 
     <h3 id="validationFbk" class="bg-danger text-white"></h3>
     <button class="btn btn-outline-primary" id="submitBtn">Submit Quiz</button>
 
-    <br>
+    <br><br>
     <h2 id="totalScore" class="text-info"></h2>
 
     <h3 id="totalAttempts"></h3>

@@ -1,0 +1,15 @@
+img {
+    width: 23px;
+    margin: 0 0 4px;
+}
+
+.bg-warning, .bg-success {
+    width: fit-content;
+    justify-self: center;
+    padding: 2px 24px;
+}
+
+hr {
+    width: 90%;
+    justify-self: center;
+}
