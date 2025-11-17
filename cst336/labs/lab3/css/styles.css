@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../img/background.jpeg");
+    background-size: 250%;
+}
+
+#main {
+    justify-items: center;
+    background-color: rgba(255, 199, 46, 0.85);
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+h1 {
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+h2 {
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    padding-inline: 10px;
+}
+
+#fullName input {
+    margin-inline: 10px;
+    margin-block: 2px;
+}
+
+form {
+    background-color: rgba(228, 228, 228, 0.68);
+    padding: 15px;
+    max-width: 300px;
+}
+
+#nameContainer {
+    justify-items: center;
+}
+
+#gender {
+    padding-top: 5px;
+}
+
+#zipcodeContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#inquiryResults {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#stateCountyContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#usernameContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#pwdContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#pwdConfirmContainer {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

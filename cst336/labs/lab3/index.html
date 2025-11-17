@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1> Sign Up </h1>
+        <form id="signupForm" action="welcome.html">
+            <div id="nameContainer">
+                <div id="fullName">
+                    <span>First Name:</span><input type="text" name="fName" autocomplete="off"><br>
+                    <span>Last Name:</span><input type="text" name="lName" autocomplete="off">
+                </div>
+                <div id="gender">
+                    <span>Gender:</span>
+                    <input type="radio" name="gender" value="m">Male
+                    <input type="radio" name="gender" value="f">Female
+                </div>
+            </div><hr>
+
+            <div id="zipcodeContainer">
+                <div id="zipCheck">
+                    <span>Zip Code:</span>
+                    <input type="text" id="zip" name="zip" size="18" autocomplete="off">
+                </div>
+                <div id="zipValidity">
+                    <span>Zip Code Validity:</span><br>
+                    <span id="zipValid"></span>
+                </div>
+            </div><hr>
+            <div id="cityDisplay">City: <span id="city"></span></div>
+            <div id="inquiryResults">
+                <div>Latitude: <span id="lat"></span></div>
+                <div>Longitude: <span id="long"></span></div>
+            </div><hr>
+
+
+            <div id="stateCountyContainer">
+                <div id="stateContainer">
+                    State:<br>
+                    <select id="state" name="state">
+                        <option>Select One</option>
+                    </select>
+                </div>
+                <div id="countyContainer">
+                    Select a County:<br>
+                    <select id="county">
+                    </select>
+                </div>
+            </div><hr>
+
+            <div id="usernameContainer">
+                <div id="usernameEntry">
+                    <span>Desired Username:</span>
+                    <input type="text" id="username" name="username" size="18" autocomplete="off">
+                </div>
+                <div id="usernameCheck">
+                    <span>Username Availability:</span>
+                    <span id="usernameError"></span>
+                </div>
+            </div><hr>
+
+            <div id="bottomContainer">
+                <div id="pwdContainer">
+                    <div id="pwdEntry">
+                        <span>Password:</span><br>
+                        <input type="password" id="password" name="password" size="18" autocomplete="off">
+                    </div>
+                    <div id="pwdSuggestion">
+                        <span>Suggested Password:</span><br>
+                        <span id="suggestedPwd"></span>
+                    </div>
+                </div>
+                <div id="pwdConfirmContainer">
+                    <div id="pwdConfirmEntry">
+                        <span>Confirm Password:</span>
+                        <input type="password" id="confirmPassword" size="18" autocomplete="off"><br>
+                    </div>
+                    <div id="pwdMatch">
+                        <span>Password Validity:</span>
+                        <span id="passwordError"></span>
+                    </div>
+                </div>
+            </div><hr>
+
+            <input id="submitBtn" type="submit" value="Sign up!">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
