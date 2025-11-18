@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex: Kanto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Logo">
+        <h1>The Kanto Pokedex</h1>
+    </div>
+    <div id="pokemonContainer">
+        <div id="column1">
+            <div id="pokemonImg"></div>
+        </div>
+        <div id="column2">
+            <div id="searchContainer">
+                <span>Entry #</span>
+                <input type="number" id="searchNum" min="1" max="151">
+                <span>:</span><span id="pokemonName"></span>
+            </div>
+            <div id="pokemonTypes">
+                <span id="typeHeader">Type:</span>
+                <div id="typesDisplay"></div>
+            </div>
+            <div id="pokemonInfo">
+                <div id="heightWeightContainer">
+                    <div id="heightDisplay">Height: <span id="height"></span> m</div>
+                    <div id="weightDisplay">Weight: <span id="weight"></span> kg</div>
+                </div>
+                <div id="habitatContainer">
+                    <div id="habitatDisplay">Habitat: <span id="habitat"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pokemonCryContainer"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>

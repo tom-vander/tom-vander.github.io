@@ -1,0 +1,298 @@
+.orbitron-font {
+               font-family: "Orbitron", sans-serif;
+               font-optical-sizing: auto;
+               font-weight: 400;
+               font-style: normal;
+           }
+
+body {
+    height: 100vh;
+    width: 100vw;
+    min-width: 800px;
+    margin: 0;
+    padding: 25px;
+    background-image: linear-gradient(to bottom, #ffffff, #2e676c);
+    background-repeat:repeat;
+    background-size: auto;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    margin: 30px auto;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#header img {
+    transform: scale(1.75);
+    margin-block: 10px;
+}
+
+h1 {
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    text-wrap: nowrap;
+    color: #ffffff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3367ad;
+}
+
+#pokemonContainer {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 225px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 25px solid transparent;
+    border-image: url(../img/pokeball_background.jpeg) 15;
+    outline: 5px solid #000000;
+    background-color: #dfdfdf;
+    box-shadow: 5px 5px 0 #000000 inset,
+                -5px -5px 0 #000000 inset;
+}
+
+#column1, #column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+}
+
+#column2 {
+    justify-content: center;
+    flex-grow: 1;
+    width: auto;
+}
+
+#searchContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 5px 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    width: 355px;
+    background-color: #c6c593;
+    outline: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#pokemonImg {
+    padding: 10px;
+    width: fit-content;
+}
+
+#searchNum {
+    margin-inline: 2px;
+}
+
+#pokemonName {
+    font-size: 26px;
+    color: #1b3a5e;
+    margin-left: 10px;
+}
+
+#pokemonImg img {
+    display: block;
+    outline: 2px solid #000000;
+    box-shadow: white 5px 5px 20px inset,
+                white -5px -5px 20px inset;
+    border-radius: 10%;
+    background-color: #99b6b5;
+    height: 192px;
+    width: 192px;
+}
+
+#heightWeightContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    flex-grow: 1;
+    width: auto;
+    justify-content: space-between;
+}
+
+#pokemonTypes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    margin-block: 10px;
+}
+
+#typeHeader {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 5px;
+}
+
+#typesDisplay {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: fit-content;
+}
+
+#habitatContainer {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    outline: 2px solid #000000;
+    width: 355px;
+    border-radius: 10px;
+}
+
+#habitatDisplay {
+    margin-block: 2px;
+    padding-block: 4px;
+    padding-inline: 50px;
+    background-color: #ffffff;
+    outline: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.grasslandHabitat {
+    background-image: url(../img/grassland_background.png);
+    background-position: center 525px;
+}
+
+.mountainHabitat {
+    background-image: url(../img/mountain_background.png);
+    background-position: 0 300px;
+}
+
+.waters-edgeHabitat {
+    background-image: url(../img/waters-edge_background.png);
+    background-position: center 295px;
+}
+
+.forestHabitat {
+    background-image: url(../img/forest_background.png);
+    background-position: center 300px;
+}
+
+.rough-terrainHabitat {
+    background-image: url(../img/rough-terrain_background.png);
+    background-position: center 175px;
+}
+
+.caveHabitat {
+    background-image: url(../img/cave_background.png);
+    background-position: center 200px;
+}
+
+.urbanHabitat {
+    background-image: url(../img/urban_background.png);
+    background-position: 0 200px;
+}
+
+.seaHabitat {
+    background-image: url(../img/sea_background.png);
+    background-position: center 155px;
+}
+
+.rareHabitat {
+    background-image: linear-gradient(to bottom, #ffffff, #fdad00);;
+    background-position: center center;
+}
+
+.typeDisplay {
+    color: #ffffff;
+    margin: 2px;
+    padding-inline: 8px;
+    padding-block: 4px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.normalTypeDisplay {
+    background-color: #ffffff;
+    color: #636363 !important;
+}
+
+.fireTypeDisplay {
+    background-color: #ff7f50;
+}
+
+.waterTypeDisplay {
+    background-color: #6495ed;
+}
+
+.electricTypeDisplay {
+    background-color: #efc714;
+}
+
+.grassTypeDisplay {
+    background-color: #23a603;
+}
+
+.poisonTypeDisplay {
+    background-color: #9400d3;
+}
+
+.groundTypeDisplay {
+    background-color: #bdb76b;
+}
+
+.bugTypeDisplay {
+    background-color: #6c9c3b;
+}
+
+.flyingTypeDisplay {
+    background-color: #8686cf;
+}
+
+.rockTypeDisplay {
+    background-color: #9e958b;
+}
+
+.psychicTypeDisplay {
+    background-color: #ff0099;
+}
+
+.steelTypeDisplay {
+    background-color: #9eb7b8;
+}
+
+.iceTypeDisplay {
+    background-color: #98d2ea;
+}
+
+.ghostTypeDisplay {
+    background-color: #705898;
+}
+
+.fightingTypeDisplay {
+    background-color: #9e433f;
+}
+
+.fairyTypeDisplay {
+    background-color: #ff99e6;
+}
+
+.dragonTypeDisplay {
+    background-color: #5f34c5;
+}
