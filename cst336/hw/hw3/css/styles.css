@@ -49,6 +49,15 @@ h1 {
     -webkit-text-stroke-color: #3367ad;
 }
 
+h2 {
+    width: fit-content;
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    text-wrap: nowrap;
+    margin: 0;
+}
+
 #pokemonContainer {
     font-family: 'Orbitron', sans-serif;
     font-weight: 300;
