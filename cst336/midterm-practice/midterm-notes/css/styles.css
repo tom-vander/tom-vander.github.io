@@ -6,7 +6,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(171, 192, 245);
     padding-inline: 20px;
 }
 
@@ -38,7 +38,7 @@ main {
     justify-self: center;
 }
 
-.overview h2 {
+.overview h2, .overview p {
     justify-self: center;
 }
 
@@ -60,7 +60,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #cacaca;
+    background-color: #d3dff5;
     padding: 15px;
     margin-inline: 5px;
 }
@@ -80,7 +80,7 @@ main {
 }
 
 .week-assignments h2 {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(171, 192, 245);
     color: white;
     padding: 10px;
 }
@@ -97,11 +97,27 @@ main {
     padding-block: 5px;
 }
 
+.overview table {
+    min-width: 880px;
+}
+
+.overview .table-header {
+    background-color: #b2c8ff;
+}
+
+.overview .table-row{
+    background-color: #dce8ff;
+}
+
+.overview td, .overview tr {
+    padding:10px;
+}
+
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(171, 192, 245);
     padding-inline: 20px;
     padding-block: 10px;
     justify-content: center;
