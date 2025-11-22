@@ -12,11 +12,13 @@ function displayChoices() {
     q7ChoicesArray = _.shuffle(q7ChoicesArray);
 
     for(let i = 0; i < q4ChoicesArray.length; i++) {
-        document.querySelector("#q4Choices").innerHTML += `<input type="radio" name="q4" id="${q4ChoicesArray[i]}" value="${q4ChoicesArray[i]}"> <label for="${q4ChoicesArray[i]}">${q4ChoicesArray[i]}</label> `;
+        document.querySelector("#q4Choices").innerHTML +=
+            `<input type="radio" name="q4" id="${q4ChoicesArray[i]}" value="${q4ChoicesArray[i]}"> <label for="${q4ChoicesArray[i]}">${q4ChoicesArray[i]}</label> `;
     }
 
     for(let i = 0; i < q7ChoicesArray.length; i++) {
-        document.querySelector("#q7Choices").innerHTML += `<input type="radio" name="q7" id="${q7ChoicesArray[i]}" value="${q7ChoicesArray[i]}"> <label for="${q7ChoicesArray[i]}">${q7ChoicesArray[i]}</label> `;
+        document.querySelector("#q7Choices").innerHTML +=
+            `<input type="radio" name="q7" id="${q7ChoicesArray[i]}" value="${q7ChoicesArray[i]}"> <label for="${q7ChoicesArray[i]}">${q7ChoicesArray[i]}</label> `;
     }
 }
 

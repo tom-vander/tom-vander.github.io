@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 700px;
+    text-wrap: wrap;
+    background-color: #1a1a4e;
+    color: white;
+    padding: 20px;
+}
+
+#quote-row {
+    align-self: center;
+    font-size: 24px;
+    padding: 10px;
+}
+
+#author-row {
+    align-self: flex-end;
+    font-size: 22px;
+}
+
+#translate-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 26, 78, 0.71);
+    color: white;
+    width: 700px;
+    padding: 20px;
+}
+
+#translate-flag {
+    margin-bottom: 10px;
+}
+
+#translate-row{
+    display: flex;
+    flex-direction: row;
+}
+
+#translate-btn {
+    margin-left: 10px;
+}
+
+#translate-row input {
+    margin-inline: 10px;
+}
+
+#bio-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 26, 78, 0.71);
+    color: white;
+    width: 700px;
+    padding: 20px;
+}
+
+#bio-row {
+    margin: 20px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio-text {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+#bio-image img {
+    max-height: 150px;
+}
+
+#quotes-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 26, 78, 0.71);
+    color: white;
+    width: 700px;
+    padding: 20px;
+}
+
+.extra-quote {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.extra-quote-text {
+    align-self: flex-end;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.extra-quote-author {
+    display: flex;
+    align-self: flex-end;
+    font-size: 20px;
+}

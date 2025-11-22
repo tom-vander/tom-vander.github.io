@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Midterm Exam Practice</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="quote-box">
+        <div id="quote-row"><span id="quote"></span></div>
+        <div id="author-row">- <span id="author"></span></div>
+    </div>
+    <div id="translate-box"> <!-- column -->
+        <div id="translate-flag">
+        </div>
+        <div id="translate-row">
+            <input type="radio" name="translate-option" id="english" value="EN" checked> <label for="english">English</label>
+            <input type="radio" name="translate-option" id="esperanto" value="ES"> <label for="esperanto">Esperanto</label>
+            <input type="radio" name="translate-option" id="french" value="FR"> <label for="french">French</label>
+            <input type="radio" name="translate-option" id="spanish" value="SP"> <label for="spanish">Spanish</label>
+            <button id="translate-btn">Translate</button>
+        </div>
+    </div>
+    <div id="bio-box">
+        <button id="bio-btn">Display Author Info</button>
+        <div id="bio-row">
+            <div id="bio-text"></div>
+            <div id="bio-image"></div>
+        </div>
+    </div>
+    <div id="quotes-box">
+        <div id="user-input">
+            <input type="number" min="1" max="5" id="num-quotes">
+            <button id="get-quotes-btn">Get Quotes</button>
+            <span id="validation"></span>
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
